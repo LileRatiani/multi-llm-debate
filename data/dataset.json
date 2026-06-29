@@ -1,0 +1,177 @@
+[
+  {
+    "problem_id": "MATH_001",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "In how many ways can you tile a 4x5 rectangle with 2x1 dominoes?",
+    "ground_truth_answer": "95",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "MATH_002",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "What are the last three digits of 7^9999?",
+    "ground_truth_answer": "143",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "MATH_003",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "A fair coin is flipped 10 times. What is the expected number of times that the sequence Heads-Tails-Heads (HTH) appears? Overlapping sequences are counted.",
+    "ground_truth_answer": "1",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "MATH_004",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "If x + (1/x) = 3, what is the exact value of x^5 + (1/x^5)?",
+    "ground_truth_answer": "123",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "MATH_005",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "What is the exact numerical value of sin(10°) * sin(50°) * sin(70°)?",
+    "ground_truth_answer": "1/8",
+    "evaluation_type": "symbolic_match"
+  },
+  {
+    "problem_id": "MATH_006",
+    "category": "Mathematical/Logical Reasoning",
+    "question": "How many distinct spanning trees does a complete bipartite graph K_{3,4} have?",
+    "ground_truth_answer": "432",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "PHYS_001",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A solid sphere and a solid cylinder of the same mass and radius are released from rest at the top of an incline. Both roll without slipping. What is the ratio of the sphere's linear acceleration to the cylinder's linear acceleration?",
+    "ground_truth_answer": "15/14",
+    "evaluation_type": "symbolic_match"
+  },
+  {
+    "problem_id": "PHYS_002",
+    "category": "Physics & Scientific Reasoning",
+    "question": "An ideal diatomic gas at initial temperature T undergoes a reversible adiabatic expansion where its volume doubles. What is the final temperature in terms of T?",
+    "ground_truth_answer": "T*(1/2)^(2/5)",
+    "evaluation_type": "symbolic_match"
+  },
+  {
+    "problem_id": "PHYS_003",
+    "category": "Physics & Scientific Reasoning",
+    "question": "What is the equivalent resistance between two adjacent nodes in an infinite 2D square grid constructed entirely of 1-ohm resistors?",
+    "ground_truth_answer": "0.5",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "PHYS_004",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A projectile is launched from flat ground at an angle theta. What launch angle in degrees maximizes the geometric area under its parabolic trajectory curve?",
+    "ground_truth_answer": "60",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "PHYS_005",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A spaceship travels toward Earth at 0.8c. It fires a laser pulse forward, directly at Earth. According to an observer on Earth, what is the speed of the laser pulse?",
+    "ground_truth_answer": "c",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "PHYS_006",
+    "category": "Physics & Scientific Reasoning",
+    "question": "A point source of light is placed 3 meters underwater (refractive index n=4/3). What is the exact radius in meters of the circle of light emerging from the water's surface?",
+    "ground_truth_answer": "9/sqrt(7)",
+    "evaluation_type": "symbolic_match"
+  },
+  {
+    "problem_id": "LOGIC_001",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "On an island of knights (always tell the truth) and knaves (always lie), you meet A, B, and C. A says 'All of us are knaves'. B says 'Exactly one of us is a knight'. What are A, B, and C respectively?",
+    "ground_truth_answer": "A is a knave, B is a knight, C is a knave",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "LOGIC_002",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "100 perfectly rational prisoners stand in a line facing forward. They wear either red or blue hats. Each can see the hats ahead of them, but not their own or those behind them. Starting from the back, they must guess their own hat color. Hearing all previous guesses, what is the absolute maximum number of prisoners mathematically guaranteed to survive?",
+    "ground_truth_answer": "99",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "LOGIC_003",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "There are 4 doors. Behind 1 is a car; behind 3 are goats. You pick Door 1. The host, who knows what is behind each door, opens Door 2 to reveal a goat. You are offered the chance to stay on Door 1, or switch to Door 3 or 4. What is the exact probability of winning the car if you switch to Door 3?",
+    "ground_truth_answer": "3/8",
+    "evaluation_type": "symbolic_match"
+  },
+  {
+    "problem_id": "LOGIC_004",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "You have 12 visually identical coins, but exactly one is counterfeit (it is either heavier or lighter than the rest). What is the minimum number of times you must use a balance scale to guarantee finding the fake coin and determining whether it is heavy or light?",
+    "ground_truth_answer": "3",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "LOGIC_005",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "In a standard 3x3 magic square filled with the distinct integers 1 through 9, what integer must occupy the absolute center cell?",
+    "ground_truth_answer": "5",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "LOGIC_006",
+    "category": "Logic Puzzles & Constraint Satisfaction",
+    "question": "Four people need to cross a fragile bridge at night. They have one flashlight. The bridge holds a maximum of two people at a time. Their crossing times are 1, 2, 5, and 10 minutes. When two cross, they move at the speed of the slower person. What is the absolute minimum total time in minutes required for all four to cross?",
+    "ground_truth_answer": "17",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_001",
+    "category": "Strategic Game Theory",
+    "question": "In the game Matching Pennies, both players choose Heads or Tails simultaneously. Player 1 wins 1 point if the coins match, Player 2 wins 1 point if they differ. What is the probability that Player 1 plays Heads in the unique mixed-strategy Nash equilibrium?",
+    "ground_truth_answer": "0.5",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_002",
+    "category": "Strategic Game Theory",
+    "question": "5 strictly rational pirates (A, B, C, D, E in decreasing seniority) must divide 100 gold coins. Pirate A proposes a distribution. If 50% or more of the pirates (including A) vote to accept, it passes. If not, A is thrown overboard and B proposes. Assuming all pirates want to survive and maximize their own gold, how many coins does A keep in the optimal proposal?",
+    "ground_truth_answer": "98",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_003",
+    "category": "Strategic Game Theory",
+    "question": "Two identical firms engage in Bertrand competition. They produce an identical good with a constant marginal cost c = 10. The market demand is Q = 100 - P. They set prices simultaneously. What is the equilibrium price P?",
+    "ground_truth_answer": "10",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_004",
+    "category": "Strategic Game Theory",
+    "question": "Two firms engage in Cournot competition. They have zero marginal cost. The inverse demand function is P = 120 - Q, where Q is total quantity (q1 + q2). What is the Cournot Nash equilibrium quantity for firm 1 (q1)?",
+    "ground_truth_answer": "40",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_005",
+    "category": "Strategic Game Theory",
+    "question": "In a continuous Ultimatum game, the Proposer offers to split $100 by keeping $x and giving $(100-x) to the Responder. The Responder accepts (both get the money) or rejects (both get $0). Assuming strict rationality and continuous divisibility of money, what is the subgame perfect equilibrium offer $(100-x) given to the responder?",
+    "ground_truth_answer": "0",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_006",
+    "category": "Strategic Game Theory",
+    "question": "In a standard game of Nim with three piles containing 3, 4, and 5 stones respectively, how many stones must the first player remove, and from which pile, to guarantee a win with optimal play? Format answer as '[number] stones from pile [size]'.",
+    "ground_truth_answer": "2 stones from pile 3",
+    "evaluation_type": "exact_match"
+  },
+  {
+    "problem_id": "GAME_007",
+    "category": "Strategic Game Theory",
+    "question": "In a 100-stage finite Centipede game with perfect information, what is the theoretically correct subgame perfect equilibrium action for the first player at the very first decision node?",
+    "ground_truth_answer": "Defect",
+    "evaluation_type": "exact_match"
+  }
+]
